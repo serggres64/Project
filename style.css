@@ -1,0 +1,206 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,500;16..144,700&family=Roboto+Slab:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montagu Slab;
+}
+
+
+header{
+    background-color: rgb(4, 17, 25);
+}
+
+.title-foto {
+    max-width: 612px;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    padding: 12px 0px;
+    font-weight: 700;
+}
+
+main{
+    padding: 25px 12px;
+    background-color: rgb(4, 17, 25);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+nav {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.VM {
+    /* margin: 0 auto; */
+    width: 310px;
+    padding-bottom: 30px;
+}
+
+.TV {
+    width: 310px;
+    padding-bottom: 30px;
+}
+
+.card-text {
+    max-width: 429px;
+    font-size: 32px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.logo img{
+    max-width: 400px;
+}
+
+.text p{
+    margin: 40px 0px 40px 40px;
+    color: black;
+    max-width: 1582px;
+    font-size: 40px;
+}
+
+.card button{
+    padding: 5px 12px;
+    border-radius: 24px;
+}
+
+
+.card button a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+
+.description {
+    color: rgb(4, 17, 25);
+    margin: 20px;
+}
+
+.description-main {
+    max-width: 1180px;
+    /* min-width: 770px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 24px;
+    margin: 0 auto;
+    Overflow:hidden
+}
+
+.description .main .text{
+    font-size: 24px;
+    color: wheat;
+    padding: 20px;
+}
+
+.description-main-foto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.center {
+    width: 276px;
+    height: 457px;
+}
+
+
+
+
+footer{
+    background-color: rgb(4, 17, 25);
+}
+
+.end{
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: rgb(4, 17, 25);
+    padding: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-name {
+    font-size: 30px;
+    line-height: 2;
+}
+
+.footer-logo img{
+    height: 150px;
+    padding: 20px;
+}
+
+
+
+
+@media (max-width: 736px){
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .VM{
+        margin: 0 auto;
+        display: flex;
+        padding: 0;
+    }
+    .TV{
+        margin: 0 auto;
+        display: flex;
+        padding: 0;
+    }
+    .card-text{
+        max-width: 600px;
+        text-align: center;
+    }
+    .card button{
+    display: flex;
+    margin: 0 auto;
+    }
+    .logo{
+        display: none;
+    }
+    .text p{
+        font-size: 28px;
+    }
+    .description-main-foto{
+        display: none;
+    }
+    .description-main-text{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .footer-logo{
+        display: none;
+    }
+    .footer-name{
+        font-size: 20px;
+    }
+        /* .text{
+        font-size: 10px;
+    } */
+    /* .description{
+        
+        width: 500px;
+    } */
+}
+

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,500;16..144,700&family=Roboto+Slab:wght@300;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montagu Slab;
+}
+
+
+header{
+    background-color: rgb(4, 17, 25);
+    padding: 50px;
+}
+
+.title-foto {
+    max-width: 612px;
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    padding: 50px 0px;
+    font-weight: 700;
+}
+
+.top {
+    position: absolute;
+    right: 0px;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+button{
+    margin: 20px;
+    padding: 5px 12px;
+    border-radius: 24px;
+    width: 370px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+
+
+
+
+main{
+    padding: 50px 12px;
+    background-color: rgb(4, 17, 25);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+section{
+    max-width: 1800px;
+    margin: 20px;
+}
+
+.descrip{
+    font-size: 35px;
+    margin: 0 auto;
+    color: white;
+}
+
+.descrip p{
+    padding: 25px;
+}
+
+.btn-main{
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+.page-number{
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 5px 12px;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1220px;
+    overflow: hidden;
+    word-wrap: normal;
+    box-sizing: border-box;
+}
+
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    margin: 20px;
+    background-color: white;
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.user p {
+    /* padding: 25px; */
+    font-size: 28px;
+}
+
+footer{
+    background-color: rgb(4, 17, 25);
+}
+
+.end{
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: rgb(4, 17, 25);
+    padding: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-name {
+    font-size: 30px;
+    line-height: 2;
+}
+
+.footer-logo img{
+    height: 150px;
+    padding: 20px;
+}
+
+
+.btn-nav img{
+    margin: 10px;
+}
+
+
+
+
+
+@media (max-width: 736px){
+    header{
+        padding: 5px;
+    }
+    .top{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+    .VM, .TV{
+        max-width: 310px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .main{
+        padding: 0px;
+    }
+    .descrip{
+        font-size: 28px;
+    }
+    .page-number {
+        font-size: 25px;
+    }
+    .user{
+        max-width: 700px;
+        padding: 0;
+    }
+    .users p{
+        font-size: 20px;
+    }
+    .users {
+        max-width: 700px;
+    }
+    .user img{
+        width: 600px;
+    }
+
+
+
+
+    /* p{
+        font-size: 28px
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .footer-logo{
+        display: none;
+    }
+    .footer-name p{
+        font-size: 20px;
+    }
+}
